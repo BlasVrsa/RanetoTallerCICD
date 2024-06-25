@@ -4,9 +4,9 @@ trigger:
 - main
 
 pool:
-  name: Pool
+  name: Default
   demands: 
-  - agent.name -equals {Pool}
+  - agent.name -equals {Default}
 
 steps:
 - task: NodeTool@0
