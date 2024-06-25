@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  name: Default
+  name: Pool
   demands: 
   - agent.name -equals {Pool}
 
