@@ -4,7 +4,8 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  name: Pool
+  vmImage: 'ubuntu-latest'
 
 steps:
 - task: NodeTool@0
