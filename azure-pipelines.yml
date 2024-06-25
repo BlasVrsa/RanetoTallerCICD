@@ -5,7 +5,8 @@ trigger:
 
 pool:
   name: Default
-  vmImage: 'ubuntu-latest'
+  demands: 
+  - agent.name -equals {Pool}
 
 steps:
 - task: NodeTool@0
