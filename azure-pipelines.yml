@@ -4,7 +4,7 @@ trigger:
 - main
 
 pool:
-  name: Pool
+  name: Default
   vmImage: 'ubuntu-latest'
 
 steps:
